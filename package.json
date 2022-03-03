@@ -20,17 +20,10 @@
     "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fredyvelasquezgt/lab03-web.git"
-  },
+  
   "keywords": [
     "webpack"
   ],
   "author": "Fredy Velasquez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fredyvelasquezgt/lab03-web/issues"
-  },
-  "homepage": "https://github.com/fredyvelasquezgt/lab03-web#readme"
+  "license": "ISC"
 }
