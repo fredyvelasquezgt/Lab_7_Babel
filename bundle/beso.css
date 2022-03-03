@@ -1,0 +1,16 @@
+/*!********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./beso/beso.css ***!
+  \********************************************************************************************************/
+body {
+  background-color: palevioletred;
+  color: black;
+  font-size: 18px;
+}
+
+#para10 {
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  width: 2000px;
+  height: 10px;
+}

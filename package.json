@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^3.4.1"
+  },
+  "name": "lab06",
+  "version": "1.0.0",
+  "description": "webpack project",
+  "main": "index.js",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  },
+  "scripts": {
+    "start": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredyvelasquezgt/lab03-web.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Fredy Velasquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fredyvelasquezgt/lab03-web/issues"
+  },
+  "homepage": "https://github.com/fredyvelasquezgt/lab03-web#readme"
+}
