@@ -21,7 +21,7 @@ module.exports = {
   },
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "bundle"),
+    path: path.resolve(__dirname, "bundle_sin_babel"),
   },
   plugins: [
     new MiniCssExtractPlugin({
@@ -106,6 +106,17 @@ module.exports = {
         test: /\.(sass|less|css)$/,
         use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
       },
+      // {
+      //   test: /\.m?js$/,
+      //   exclude: /(node_modules)/,
+      //   use: {
+      //     loader: "babel-loader",
+      //     options: {
+      //       presets: ["@babel/preset-env"],
+      //       plugins: ["@babel/plugin-transform-runtime"],
+      //     },
+      //   },
+      // },
     ],
   },
 };
